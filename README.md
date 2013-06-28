@@ -85,5 +85,5 @@ __注意：TIPS中不得含有连接或按钮__
 
 ## 目录参考
 
-<script src="https://gist.github.com/jumbo/df89e3303a132657faa9.js"></script>
+<script src="https://gist.github.com/5883735.js"></script>
 
