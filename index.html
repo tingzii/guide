@@ -1,15 +1,225 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="documentup.min.js"></script>
-    <script>
-	  DocumentUp.document({
-  repo:  "jumbo/guide",
-  name: "UI guide in progress",
-  theme: "v1",
-  issues: false
-});
-    </script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Guide by jumbo</title>
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Guide</h1>
+        <h2>ui guide in progress</h2>
+        <a href="https://github.com/jumbo/guide" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="" class="anchor" href="#"><span class="octicon octicon-link"></span></a>设计规范</h1>
+
+<h2>
+<a name="tips-" class="anchor" href="#tips-"><span class="octicon octicon-link"></span></a>Tips 提示</h2>
+
+<h3>
+<a name="-1" class="anchor" href="#-1"><span class="octicon octicon-link"></span></a>定义</h3>
+
+<p><strong>Tips（提示）</strong>是指一个小的弹出窗口，用于精确地描述被指向的对象，例如导航、图标、图形、链接、以及任务栏按钮的描述信息。信息提示是渐进展开（Progressive Disclosure）的一种形式，避免总是将描述文本显示在屏幕上。</p>
+
+<h3>
+<a name="-2" class="anchor" href="#-2"><span class="octicon octicon-link"></span></a>设计理念</h3>
+
+<p>设计易于发现的提示，在恰当的位置和时候显示简洁、实用、辅助性的信息。</p>
+
+<h3>
+<a name="-3" class="anchor" href="#-3"><span class="octicon octicon-link"></span></a>设计规范</h3>
+
+<p><strong>注意：TIPS中不得含有连接或按钮</strong></p>
+
+<ul>
+<li>
+<strong>边框：</strong> <code>#C5C5C5 1px</code>，无投影</li>
+<li>
+<strong>大小：</strong> 高度范围<code>41px</code>~<code>350px</code>，宽度范围<code>55px</code>~<code>400px</code> </li>
+<li>
+<strong>边框到内容间距：</strong> <code>10px</code>
+</li>
+<li>
+<strong>分隔线：</strong> <code>C5C5C5</code>
+</li>
+<li>
+<strong>正文：</strong> <code>#333333 12px Regular</code>
+</li>
+<li>
+<strong>标题或着重标示文字：</strong> <code>strong/#333333/#0066cc/#306db4/#fe9913</code>
+</li>
+<li>
+<strong>辅助文字：</strong> <code>#999999</code>
+</li>
+<li>
+<strong>中文字体：</strong> <code>宋体</code>
+</li>
+<li>
+<strong>英文字体：</strong> <code>Tahoma</code>
+</li>
+<li>
+<strong>正文行距：</strong> <code>24px</code>
+</li>
+<li>
+<strong>箭头与边框距离：</strong> 箭头只可出现在距离边框四个直角<code>10px</code>处；或边框中心的位置</li>
+<li>
+<strong>激活方式：</strong> 当鼠标划过描述对象时Tips会出现，鼠标移动到描述对象外位置时，Tips消失</li>
+<li>
+<strong>位置：</strong> Tips默认出现在描述对象的下方和右侧。超出状况下JS控制反转</li>
+</ul><p><code>注：可能根据实际情况调整字体和色值</code></p>
+
+<h3>
+<a name="-4" class="anchor" href="#-4"><span class="octicon octicon-link"></span></a>代码实现</h3>
+
+<pre><code>{TODO}
+</code></pre>
+
+<h2>
+<a name="ballons-" class="anchor" href="#ballons-"><span class="octicon octicon-link"></span></a>Ballons 气球状提示</h2>
+
+<h3>
+<a name="-5" class="anchor" href="#-5"><span class="octicon octicon-link"></span></a>定义</h3>
+
+<p>网页中的“气球状提示( Ballon )”用于提醒用户那些与用户当前活动无关的事件。它是一个小型的弹出窗口，可帮助用户理解那些未知或不太熟悉的、用户界面（UI）上又缺乏直接描述的对象</p>
+
+<ul>
+<li>Ballon可包含按钮或链接</li>
+<li>Ballon可以被关闭</li>
+</ul><h3>
+<a name="-6" class="anchor" href="#-6"><span class="octicon octicon-link"></span></a>设计规范</h3>
+
+<h4>
+<a name="ballon" class="anchor" href="#ballon"><span class="octicon octicon-link"></span></a>高层级(需强调的）ballon——共性</h4>
+
+<ul>
+<li>
+<strong>边框：</strong> <code>#0066CC 2px</code>，有投影</li>
+<li>
+<strong>大小：</strong> 高度范围<code>41px</code>~<code>450px</code>，宽度范围<code>55px</code>~<code>500px</code> </li>
+<li>
+<strong>边框到内容间距：</strong> <code>10px</code>
+</li>
+<li>
+<strong>正文：</strong> <code>#666666 12px Regular</code>
+</li>
+<li>
+<strong>标题或着重标示文字：</strong> <code>strong/#666666/#0066cc</code>
+</li>
+<li>
+<strong>中文字体：</strong> <code>宋体</code>
+</li>
+<li>
+<strong>英文字体：</strong> <code>Tahoma</code>
+</li>
+<li>
+<strong>正文行距：</strong> <code>20px</code>
+</li>
+<li>
+<strong>箭头与边框距离：</strong> 最短处为<code>10px</code>
+</li>
+<li>
+<strong>控件到正文的距离：</strong> <code>10px</code>
+</li>
+<li>
+<strong>关闭控件：</strong> Tahoma的 <code>&amp;times; 18px</code>
+</li>
+<li>
+<strong>箭头与边框距离：</strong> 箭头只可出现在在距离边框四个直角处<code>10px</code>的位置。</li>
+<li>
+<strong>激活方式：</strong> 一般为打开页面时默认出现，有时也会点击描述对象时出现。均为点击关闭控件时消失</li>
+<li>
+<strong>位置：</strong> Ballon默认出现在描述对象的上方。仅页面高度小于ballon的高度时，Ballon出现在描述对象下方。不允许出现在描述对象的两侧</li>
+</ul><h4>
+<a name="ballon-1" class="anchor" href="#ballon-1"><span class="octicon octicon-link"></span></a>低层级ballon——共性</h4>
+
+<ul>
+<li>
+<strong>边框：</strong> <code>#0066CC 1px</code>，无投影</li>
+<li>
+<strong>大小：</strong> 高度范围<code>41px</code>~<code>450px</code>，宽度范围<code>55px</code>~<code>500px</code> </li>
+<li>
+<strong>边框到内容间距：</strong> <code>10px</code>
+</li>
+<li>
+<strong>正文：</strong> <code>#666666 12px Regular</code>
+</li>
+<li>
+<strong>标题或着重标示文字：</strong> <code>strong/#666666/#0066cc</code>
+</li>
+<li>
+<strong>中文字体：</strong> <code>宋体</code>
+</li>
+<li>
+<strong>英文字体：</strong> <code>Tahoma</code>
+</li>
+<li>
+<strong>正文行距：</strong> <code>20px</code>
+</li>
+<li>
+<strong>箭头与边框距离：</strong> 最短处为<code>10px</code>
+</li>
+<li>
+<strong>控件到正文的距离：</strong> <code>10px</code>
+</li>
+<li>
+<strong>关闭控件：</strong> Tahoma的 <code>&amp;times 18px</code>
+</li>
+<li>
+<strong>箭头与边框距离：</strong> 箭头只可出现在在距离边框四个直角处<code>10px</code>的位置</li>
+<li>
+<strong>激活方式：</strong> 一般为打开页面时默认出现，有时也会点击描述对象时出现。均为点击关闭控件时消失</li>
+<li>
+<strong>位置：</strong> Ballon默认出现在描述对象的上方。仅页面高度小于ballon的高度时，Ballon出现在描述对象下方。不允许出现在描述对象的两侧</li>
+</ul><h3>
+<a name="-7" class="anchor" href="#-7"><span class="octicon octicon-link"></span></a>代码实现</h3>
+
+<pre><code>{TODO}
+</code></pre>
+
+<h1>
+<a name="sass" class="anchor" href="#sass"><span class="octicon octicon-link"></span></a>SASS</h1>
+
+<h2>
+<a name="-8" class="anchor" href="#-8"><span class="octicon octicon-link"></span></a>目录参考</h2>
+
+
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/jumbo/guide/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/jumbo/guide/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/jumbo/guide"></a> is maintained by <a href="https://github.com/jumbo">jumbo</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
 </html>
