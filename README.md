@@ -34,18 +34,18 @@ __注意：TIPS中不得含有连接或按钮__
 
 ### 代码实现 - TODO
 
-## Ballons 气球状提示
+## Balloon 气球状提示
 
 ### 定义
 
-网页中的“气球状提示( Ballon )”用于提醒用户那些与用户当前活动无关的事件。它是一个小型的弹出窗口，可帮助用户理解那些未知或不太熟悉的、用户界面（UI）上又缺乏直接描述的对象
+网页中的“气球状提示( Balloon )”用于提醒用户那些与用户当前活动无关的事件。它是一个小型的弹出窗口，可帮助用户理解那些未知或不太熟悉的、用户界面（UI）上又缺乏直接描述的对象
 
-* Ballon可包含按钮或链接
-* Ballon可以被关闭
+* Balloon可包含按钮或链接
+* Balloon可以被关闭
 
 ### 设计规范
 
-#### 高层级(需强调的）ballon——共性
+#### 高层级(需强调的）balloon——共性
 
 <img align="right" width="424" height="180" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon1.png">
 
@@ -55,19 +55,19 @@ __注意：TIPS中不得含有连接或按钮__
 * __正文：__ `#666666 12px Regular`
 * __标题或着重标示文字：__ `strong/#666666/#0066cc`
 * __中文字体：__ `宋体`
-* __英文字体：__ `Tahoma`
-* __正文行距：__ `20px`
 
 <img align="right" width="250" height="119" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon2.png">
 
+* __英文字体：__ `Tahoma`
+* __正文行距：__ `20px`
 * __箭头与边框距离：__ 最短处为`10px`
 * __控件到正文的距离：__ `10px`
 * __关闭控件：__ Tahoma的 `&times; 18px`
 * __箭头与边框距离：__ 箭头只可出现在在距离边框四个直角处`10px`的位置。
 * __激活方式：__ 一般为打开页面时默认出现，有时也会点击描述对象时出现。均为点击关闭控件时消失
-* __位置：__ Ballon默认出现在描述对象的上方。仅页面高度小于ballon的高度时，Ballon出现在描述对象下方。不允许出现在描述对象的两侧
+* __位置：__ Balloon默认出现在描述对象的上方。仅页面高度小于balloon的高度时，Balloon出现在描述对象下方。不允许出现在描述对象的两侧
 
-#### 低层级ballon——共性
+#### 低层级balloon——共性
 
 <img align="right" width="277" height="139" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon3.png">
 
@@ -76,18 +76,18 @@ __注意：TIPS中不得含有连接或按钮__
 * __边框到内容间距：__ `10px`
 * __正文：__ `#666666 12px Regular`
 * __标题或着重标示文字：__ `strong/#666666/#0066cc`
-* __中文字体：__ `宋体`
-* __英文字体：__ `Tahoma`
-* __正文行距：__ `20px`
 
 <img align="right" width="184" height="74" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon4.png">
 
+* __中文字体：__ `宋体`
+* __英文字体：__ `Tahoma`
+* __正文行距：__ `20px`
 * __箭头与边框距离：__ 最短处为`10px`
 * __控件到正文的距离：__ `10px`
 * __关闭控件：__ Tahoma的 `&times 18px`
 * __箭头与边框距离：__ 箭头只可出现在在距离边框四个直角处`10px`的位置
 * __激活方式：__ 一般为打开页面时默认出现，有时也会点击描述对象时出现。均为点击关闭控件时消失
-* __位置：__ Ballon默认出现在描述对象的上方。仅页面高度小于ballon的高度时，Ballon出现在描述对象下方。不允许出现在描述对象的两侧
+* __位置：__ Balloon默认出现在描述对象的上方。仅页面高度小于balloon的高度时，Balloon出现在描述对象下方。不允许出现在描述对象的两侧
 
 ### 代码实现 - TODO
 
