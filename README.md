@@ -32,7 +32,12 @@ __注意：TIPS中不得含有连接或按钮__
 
 `注：可能根据实际情况调整字体和色值`
 
-### 代码实现 - TODO
+### 代码实现
+
+```
+	<p><code>&amp;#8212;</code> is the decimal-encoded
+equivalent of <code>&amp;mdash;</code>.</p>
+```
 
 ## Balloon 气球状提示
 
