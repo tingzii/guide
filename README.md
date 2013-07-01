@@ -14,7 +14,8 @@ __Tips（提示）__是指一个小的弹出窗口，用于精确地描述被指
 
 __注意：TIPS中不得含有连接或按钮__
 
-<img align="right" width="575" height="332" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/tips.jpg">
+<img width="575" height="332" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/tips.jpg">
+
 * __边框：__ `#C5C5C5 1px `，无投影
 * __大小：__ 高度范围`41px`~`350px`，宽度范围`55px`~`400px` 
 * __边框到内容间距：__ `10px`
@@ -47,15 +48,13 @@ __注意：TIPS中不得含有连接或按钮__
 #### 高层级(需强调的）ballon——共性
 
 <img align="right" width="424" height="180" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon1.png">
+<img align="right" width="424" height="180" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon2.png">
 * __边框：__ `#0066CC 2px`，有投影
 * __大小：__ 高度范围`41px`~`450px`，宽度范围`55px`~`500px` 
 * __边框到内容间距：__ `10px`
 * __正文：__ `#666666 12px Regular`
 * __标题或着重标示文字：__ `strong/#666666/#0066cc`
 * __中文字体：__ `宋体`
-
-![图例](images/guide/balloon2.png "Balloon规范图例")
-
 * __英文字体：__ `Tahoma`
 * __正文行距：__ `20px`
 * __箭头与边框距离：__ 最短处为`10px`
@@ -67,10 +66,8 @@ __注意：TIPS中不得含有连接或按钮__
 
 #### 低层级ballon——共性
 
-![图例](images/guide/balloon3.png "Balloon规范图例")
-
-![图例](images/guide/balloon4.png "Balloon规范图例")
-
+<img align="right" width="424" height="180" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon3.png">
+<img align="right" width="424" height="180" src="https://raw.github.com/jumbo/guide/gh-pages/images/guide/balloon4.png">
 * __边框：__ `#0066CC 1px`，无投影
 * __大小：__ 高度范围`41px`~`450px`，宽度范围`55px`~`500px` 
 * __边框到内容间距：__ `10px`
