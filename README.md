@@ -1,5 +1,12 @@
 # 设计规范
 
+- [x] Tips
+- [x] Balloon
+- [ ] Calendar
+- [ ] Typo
+- [ ] Grid
+- [ ] Form
+
 ## Tips 提示
 
 ### 定义
