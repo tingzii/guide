@@ -1,5 +1,7 @@
 # 设计规范
 
+[TOC]
+
 - [x] Tips
 - [x] Balloon
 - [ ] Calendar
