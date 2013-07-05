@@ -1,0 +1,35 @@
+(function() {
+	try {
+		var dom = fw.getDocumentDOM(Widget.elem.symbolID),
+			codeElementName = "[DATA]",
+			codeElement,
+			properties,
+			code = "";
+
+		if (dom) {
+				// the dom's available, so use the symbolCode from the Code
+				// element's customData, which may have been dynamically changed
+			codeElement = fw.getDocumentDOM(Widget.elem.symbolID).findNamedElements(codeElementName)[0];
+		} else {
+				// this is the first time through the symbol code, so we have
+				// to access the symbolCode with GetObjectByName
+			codeElement = Widget.GetObjectByName(codeElementName);
+		}
+			
+		codeElement.customData.dynamicSymbol.name = Widget.elem.symbolName;
+
+		code = codeElement.customData.dynamicSymbol.code;
+		properties = codeElement.customData.dynamicSymbol.properties;
+
+		if (properties && properties.length) {
+			code = "(" + code + ")([" + properties + "]);";
+		}
+
+		eval(code);
+	} catch (exception) {
+		if (typeof log == "function") { 
+			log("Error in", Widget.elem.symbolName, "when", 
+			exception.dynamicSymbolError, ">>>", exception.message); 
+		}
+	}
+})();
