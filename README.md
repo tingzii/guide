@@ -1,16 +1,16 @@
 # 设计规范
 
-- [Tips](#tips)
-- [Balloon](#balloon)
-- [Pagination](#pagination)
-- [Grid](#grid)
-- [Form](#form)
-- [Tab](#tab)
-- [Icons](#icons)
-- [Slideshow](#slideshow)
-- [Typo](#typo)
+- [Tips](#inline_tips)
+- [Balloon](#inline_balloon)
+- [Pagination](#inline_pagination)
+- [Grid](#inline_grid)
+- [Form](#inline_form)
+- [Tab](#inline_tab)
+- [Icons](#inline_icons)
+- [Slideshow](#inline_slideshow)
+- [Typo](#inline_typo)
 
-<h2 id="tips">Tips 提示</h2>
+<h2 id="inline_tips">Tips 提示</h2>
 
 ### 定义
 
@@ -44,7 +44,7 @@ __注意：TIPS中不得含有连接或按钮__
 
 * * * 
 
-<h2 id="balloon">Balloon 气球状提示</h2>
+<h2 id="inline_balloon">Balloon 气球状提示</h2>
 
 ### 定义
 
@@ -97,7 +97,7 @@ __注意：TIPS中不得含有连接或按钮__
 
 * * * 
 
-<h2 id="pagination">Pagination 分页</h2>
+<h2 id="inline_pagination">Pagination 分页</h2>
 
 ### 通用分页样式
 
@@ -119,7 +119,7 @@ __注意：TIPS中不得含有连接或按钮__
 
 * * * 
 
-<h2 id="grid">Grid</h2>
+<h2 id="inline_grid">Grid</h2>
 
 栅格系统，是以规则的网格阵列来指导和规范网页中的版面布局以及信息分布。
 在网页设计中使用栅格系统，可以让网页的信息呈现更加美观易读，更具可用性。而且对于前端开发来说，网页将更加的灵活与规范。
@@ -139,7 +139,7 @@ __Ctrip UI2.0栅格系统以60px为基础，共15列，列间距为20px。__
 
 * * * 
 
-<h2 id="form">Form 表单</h2>
+<h2 id="inline_form">Form 表单</h2>
 
 ### 输入框
 
@@ -196,7 +196,7 @@ __Ctrip UI2.0栅格系统以60px为基础，共15列，列间距为20px。__
 
 * * * 
 
-<h2 id="tab">Tab</h2>
+<h2 id="inline_tab">Tab</h2>
 
 当前选中项使用蓝色文字  `#0066cc`，未选中可点击项使用黑色文字  `#333333`
 
@@ -210,7 +210,7 @@ __Ctrip UI2.0栅格系统以60px为基础，共15列，列间距为20px。__
 
   ![](https://raw.github.com/jumbo/guide/gh-pages/images/guide/tab3.png)
 
-<h2 id="icons">Icons 提示图标</h2>
+<h2 id="inline_icons">Icons 提示图标</h2>
 
 * 成功 success
 
@@ -230,7 +230,7 @@ __Ctrip UI2.0栅格系统以60px为基础，共15列，列间距为20px。__
 
 * * * 
 
-<h2 id="slideshow">Slideshow 轮播</h2>
+<h2 id="inline_slideshow">Slideshow 轮播</h2>
 
 * 轮播图片切换圆点
 
@@ -277,7 +277,7 @@ __Ctrip UI2.0栅格系统以60px为基础，共15列，列间距为20px。__
 
 * * * 
 
-<h2 id="typo">Typo</h2>
+<h2 id="inline_typo">Typo</h2>
 
 * 字体与字号
 
