@@ -1,14 +1,14 @@
 # 设计规范
 
-- [Tips](#inline_tips)
-- [Balloon](#inline_balloon)
-- [Pagination](#inline_pagination)
-- [Grid](#inline_grid)
-- [Form](#inline_form)
-- [Tab](#inline_tab)
-- [Icons](#inline_icons)
-- [Slideshow](#inline_slideshow)
-- [Typo](#inline_typo)
+- [Tips](#tips-)
+- [Balloon](#balloon-)
+- [Pagination](#pagination-)
+- [Grid](#grid)
+- [Form](#form-)
+- [Tab](#tab)
+- [Icons](#icons-)
+- [Slideshow](#slideshow-)
+- [Typo](#typo)
 
 <h2 id="inline_tips">Tips 提示</h2>
 
